@@ -1,0 +1,4 @@
+wsm
+===
+
+Wayland session manager
