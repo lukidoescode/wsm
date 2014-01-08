@@ -1,7 +1,8 @@
 #compiler gcc
 CC=gcc
-
 CFLAGS=-c -Wall
+LIBS=
+
 
 all: wsm
 
