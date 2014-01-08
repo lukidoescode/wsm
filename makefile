@@ -1,4 +1,6 @@
-#compiler gcc
+# Author: Lukas Wagner
+# Created Jan 8, 2014
+# compiler: gcc
 CC=gcc
 CFLAGS=-c -Wall
 LIBS=
