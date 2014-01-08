@@ -12,11 +12,11 @@ BIN_DIR=bin
 
 all: wsm
 
-wsm: *.o $(BIN_DIR)
+wsm: $(BIN_DIR) $(OBJ_DIR)/wsm.o
 	$(CC) $(wildcard $(OBJ_DIR)/*.o) -o $(BIN_DIR)/wsm
 
-*.o: $(SRC_DIR)/*.c $(OBJ_DIR)
-	$(CC) $(CFLAGS) $(SRC_DIR)/*.c -o $(OBJ_DIR)/*.o
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.c $(OBJ_DIR)
+	$(CC) $(CFLAGS) -I=$(shell pwd)/$(INC_DIR) $(SRC_DIR)/$*.c -o $(OBJ_DIR)/$*.o
 
 $(OBJ_DIR):
 	mkdir $(OBJ_DIR)
