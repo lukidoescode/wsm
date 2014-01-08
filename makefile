@@ -12,6 +12,9 @@ BIN_DIR=bin
 
 all: wsm
 
+all_clean: wsm
+	rm -rf obj
+
 wsm: $(BIN_DIR) $(OBJ_DIR)/wsm.o
 	$(CC) $(wildcard $(OBJ_DIR)/*.o) -o $(BIN_DIR)/wsm
 
