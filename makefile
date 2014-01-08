@@ -10,11 +10,17 @@ BIN_DIR=bin
 
 all: wsm
 
-wsm: wsm.o
-	$(CC) wsm.o -o wsm
+wsm: *.o $(BIN_DIR)
+	$(CC) $(wildcard $(OBJ_DIR)/*.o) -o $(BIN_DIR)/wsm
 
-*.o: *.c
-	$(CC) $(CFLAGS) *.c -o $(OBJ_DIR)/*.o
+*.o: $(SRC_DIR)/*.c $(OBJ_DIR)
+	$(CC) $(CFLAGS) $(SRC_DIR)/*.c -o $(OBJ_DIR)/*.o
+
+$(OBJ_DIR):
+	mkdir $(OBJ_DIR)
+
+$(BIN_DIR):
+	mkdir $(BIN_DIR)
 
 clean:
-	rm -rf *o wsm
+	rm -rf obj bin
