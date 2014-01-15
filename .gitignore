@@ -21,8 +21,12 @@
 *.i*86
 *.x86_64
 *.hex
+/bin
 
-/wsm
+# Autotools
+*.cache
+
+#Eclipse
 /.project
 /.cproject
-/bin
+
