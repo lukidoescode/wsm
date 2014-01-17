@@ -6,11 +6,5 @@
  */
 
 
+#include "wsm-launch.hpp"
 
-
-class WsmLaunch {
-public:
-	
-private:
-	
-}
