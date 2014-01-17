@@ -6,8 +6,10 @@
  */
 
 
+#include "wsm-launch.hpp"
 
 
 int main (int argc, char* argv[]) {
+	WsmLaunch *launch;
 	return 0;
 }
