@@ -1,4 +1,4 @@
-/* wsm-launch.hpp
+/* wsm.hpp
 *
 * Author: Lukas Wagner
 * Date of creation: Jan 17 2014
@@ -6,10 +6,10 @@
 */
 
 
-#ifndef __WSM_LAUNCH_HPP__
-#define __WSM_LAUNCH_HPP__
+#ifndef __WSM_HPP__
+#define __WSM_HPP__
 
-class WsmLaunch {
+class WSM {
 public:
 	
 private:
