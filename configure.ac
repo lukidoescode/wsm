@@ -8,6 +8,9 @@ AC_PREREQ([2.69])
 AC_CONFIG_SRCDIR([src/wsm.cpp])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_AUX_DIR([build-aux])
+
+AM_INIT_AUTOMAKE([1.11 -Wall -Werror])
+
 AC_CONFIG_FILES([
 	Makefile
 	src/Makefile
