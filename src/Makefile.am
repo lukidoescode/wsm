@@ -4,4 +4,4 @@ LDFLAGS =
 
 bin_PROGRAMS = wsm
 
-wsm_SOURCES = wsm.cpp
+wsm_SOURCES = main.cpp
