@@ -6,7 +6,7 @@
  */
 
 
-#include "wsm-launch.hpp"
+#include "wsm.hpp"
 
 
 int main (int argc, char* argv[]) {
