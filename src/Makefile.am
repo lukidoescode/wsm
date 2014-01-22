@@ -1,4 +1,4 @@
-AM_CFLAGS = --pedantic -Wall -std=c11 -O2
+AM_CXXFLAGS = --pedantic -Wall -std=c11 -O2
 AM_LDFLAGS =
 
 
