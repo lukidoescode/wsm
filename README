@@ -1,4 +1,6 @@
-wsm
-===
+	README file for wsm
 
-Wayland session manager
+Wsm is a session manager using the wayland protocol.
+It is intended to work as a system compositor as specified
+by the official Wayland documentation (2.1. System Compositor,
+Page 3).
