@@ -10,6 +10,6 @@
 
 
 int main (int argc, char* argv[]) {
-	WsmLaunch *launch;
+	WSM *wsm;
 	return 0;
 }
