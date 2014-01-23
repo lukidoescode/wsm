@@ -9,6 +9,8 @@
 #ifndef __WSM_HPP__
 #define __WSM_HPP__
 
+#include <wayland-server.h>
+
 class WSM {
 public:
 	
